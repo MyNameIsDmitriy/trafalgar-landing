@@ -1,12 +1,12 @@
 <template>
-  <div class="">
+  <div class="wrapper">
     <VHeader />
     <VirualHealthcare />
     <OurServices />
     <HealthcareProviders />
     <MobileApp />
-    <VFooter />
   </div>
+  <VFooter />
 </template>
 
 <script>
@@ -32,4 +32,23 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+
+// min-width 1480px ??? TODO
+.wrapper {
+  width: 1200px;
+}
+
+// @media (min-width: 1600px) {
+//  .wrapper {
+//   width: 1200px;
+//  }
+// }
+
+// @media (min-width:1280px) {
+//   .wrapper {
+//     width: 798px;
+//   }
+// }
+</style>
