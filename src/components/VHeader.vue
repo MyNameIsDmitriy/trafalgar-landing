@@ -1,14 +1,16 @@
 <template>
-  <div class="header">
-    <div class="logo">
-      <img src="@/assets/svg/t_logo.png" alt="logo" />
-    </div>
-    <div class="navigation">
-      <a href="" class="nav-child">home</a>
-      <a href="" class="nav-child">find a doctor</a>
-      <a href="" class="nav-child">apps</a>
-      <a href="" class="nav-child">testimonials</a>
-      <a href="" class="nav-child">about us</a>
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo">
+        <img src="@/assets/svg/t_logo.png" alt="logo" />
+      </div>
+      <div class="navigation">
+        <a href="" class="nav-child">home</a>
+        <a href="" class="nav-child">find a doctor</a>
+        <a href="" class="nav-child">apps</a>
+        <a href="" class="nav-child">testimonials</a>
+        <a href="" class="nav-child">about us</a>
+      </div>
     </div>
   </div>
 </template>
@@ -23,6 +25,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

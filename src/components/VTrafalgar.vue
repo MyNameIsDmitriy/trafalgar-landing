@@ -1,21 +1,25 @@
 <template>
-  <div class="wrapper">
+  <div class="trafalgar">
     <VHeader />
-    <VirualHealthcare />
+    <VirtualHealthcare />
     <OurServices />
     <HealthcareProviders />
     <MobileApp />
+    <VReviews />
+    <OurArticle />
+    <VFooter />
   </div>
-  <VFooter />
 </template>
 
 <script>
-import VHeader from "@/components/VHeader.vue"
-import VirualHealthcare from "@/components/VirtualHealthcare.vue"
-import OurServices from "@/components/OurServices.vue"
-import HealthcareProviders from "@/components/HealthcareProviders.vue"
-import MobileApp from "@/components/MobileApp.vue"
-import VFooter from "@/components/VFooter.vue"
+import VHeader from "@/components/VHeader.vue";
+import VirtualHealthcare from "@/components/VirtualHealthcare.vue";
+import OurServices from "@/components/OurServices.vue";
+import HealthcareProviders from "@/components/HealthcareProviders.vue";
+import MobileApp from "@/components/MobileApp.vue";
+import VReviews from "@/components/VReviews.vue";
+import OurArticle from "@/components/OurArticle.vue";
+import VFooter from "@/components/VFooter.vue";
 
 export default {
   name: "VTrafalgar",
@@ -23,10 +27,12 @@ export default {
 
   components: {
     VHeader,
-    VirualHealthcare,
+    VirtualHealthcare,
     OurServices,
     HealthcareProviders,
     MobileApp,
+    VReviews,
+    OurArticle,
     VFooter,
   },
 };
@@ -35,10 +41,14 @@ export default {
 <style scoped lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
 
-// min-width 1480px ??? TODO
-.wrapper {
-  width: 1200px;
+.trafalgar {
+  width: 100%;
+  margin: 0 auto;
 }
+// min-width 1480px ??? TODO
+// .wrapper {
+//   width: 1200px;
+// }
 
 // @media (min-width: 1600px) {
 //  .wrapper {

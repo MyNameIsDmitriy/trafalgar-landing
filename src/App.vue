@@ -19,6 +19,9 @@ export default {
   padding: 0;
   border: 0;
   vertical-align: baseline;
+
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
 }
 article,
 aside,
@@ -58,7 +61,6 @@ table {
 html,
 body {
   height: 100%;
-  overflow: hidden;
 }
 body {
   * {
