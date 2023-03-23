@@ -1,5 +1,7 @@
 # trafalgar-landing
 
+### Deploy on https://candid-concha-8824d1.netlify.app/
+
 ## Project setup
 ```
 npm install
