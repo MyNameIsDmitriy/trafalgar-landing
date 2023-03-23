@@ -12,7 +12,6 @@
           on mobile and online for everyone. To us, it's not just work. We take
           pride in the solutions we deliver
         </div>
-        <!-- TODO button to component -->
         <div class="button">Learn more</div>
       </div>
     </div>

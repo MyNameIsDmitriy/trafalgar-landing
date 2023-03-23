@@ -45,20 +45,4 @@ export default {
   width: 100%;
   margin: 0 auto;
 }
-// min-width 1480px ??? TODO
-// .wrapper {
-//   width: 1200px;
-// }
-
-// @media (min-width: 1600px) {
-//  .wrapper {
-//   width: 1200px;
-//  }
-// }
-
-// @media (min-width:1280px) {
-//   .wrapper {
-//     width: 798px;
-//   }
-// }
 </style>

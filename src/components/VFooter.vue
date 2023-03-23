@@ -3,7 +3,11 @@
     <div class="wrapper">
       <div class="footer">
         <div class="about-company">
-          <h3 class="logo">Trafalgar</h3>
+          <h3 class="logo">
+            <img src="@/assets/svg/ellipse-8.png" alt="ellipse">
+            <img class="img-on-img" src="@/assets/svg/T.png" alt="t">
+            Trafalgar
+          </h3>
           <div class="description">
             Trafalgar provides progressive, and affordable healthcare,
             accessible on mobile and online for everyone
@@ -80,9 +84,17 @@ export default {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+}
+
+.img-on-img {
+  position: relative;
+  left: -29px;
+  z-index: 1;
 }
 
 .description {

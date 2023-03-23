@@ -5,19 +5,17 @@
         <img src="@/assets/svg/t_logo.png" alt="logo" />
       </div>
       <div class="navigation">
-        <a href="" class="nav-child">home</a>
-        <a href="" class="nav-child">find a doctor</a>
-        <a href="" class="nav-child">apps</a>
-        <a href="" class="nav-child">testimonials</a>
-        <a href="" class="nav-child">about us</a>
+        <a class="nav-child">home</a>
+        <a class="nav-child">find a doctor</a>
+        <a class="nav-child">apps</a>
+        <a class="nav-child">testimonials</a>
+        <a class="nav-child">about us</a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-// TODO delete unused classes
-// TODO logo to text (not png)
 export default {
   name: "VHeader",
   props: {},
